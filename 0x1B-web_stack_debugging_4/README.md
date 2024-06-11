@@ -1,0 +1,6 @@
+0x1B-web_stack_debugging_4
+For this project : 
+I am testing how well our web server setup featuring Nginx is doing under pressure and it turns out it’s not doing well: we are getting a huge amount of failed requests.
+
+For the benchmarking, we are using ApacheBench which is a quite popular tool in the industry. It allows you to simulate HTTP requests to a web server. In this case, 2000 requests to a  server with 100 requests at a time have been made . We can see that 943 requests failed, let’s fix our stack so that we get to 0.
+
